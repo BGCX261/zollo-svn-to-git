@@ -1,0 +1,99 @@
+/*----- forms -----*/
+#form {line-height:1em; margin:0; padding:0;}
+form.jqtransformdone div.rowElem label {
+	float:left;
+	height:41px;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+form.jqtransformdone div.rowElem {clear:both; height:41px; margin:0; padding:0; position:relative;}
+.rowElem .col-1 {width:373px; margin-right:7px;}
+.rowElem .col-2 {width:190px; margin-right:0;}
+/* -------------
+ * Inputs
+ * ------------- */
+.rowElem input {
+	width:237px;
+	font-size:12px; 
+	color:#7c7c7c; 
+	padding:13px 18px; 
+	margin:0;
+	*margin:-1px 0 0;
+	border:none;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	outline:none;
+	background:url(../images/input-bg.jpg) 0 0 no-repeat;
+}
+/* -------------
+ * Selects
+ * ------------- */
+.jqTransformSelectWrapper {
+	float:right;
+	width:100px;
+	height:41px;
+	position:relative;
+	background:url(../images/bg-select.jpg) 0 0 no-repeat;
+	border:none;
+}
+.jqTransformSelectWrapper div span {
+	width:88px !important;
+	height:41px;
+	font-size:12px;
+	line-height:41px;
+	color:#7d7d7d;
+	float:none;
+	position:absolute;
+	white-space:nowrap;
+	background:transparent;
+	padding:0 0 0 12px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.jqTransformSelectWrapper  a.jqTransformSelectOpen {display:none; background:none;}
+.jqTransformSelectWrapper ul {
+	position:absolute;
+	top:41px;
+	left:0px;
+	list-style:none;
+	border:solid 1px #dfdfdf;
+	display:none;
+	margin:0px;
+	padding:0;
+	overflow:auto;
+	z-index:10;
+	background:#fff;
+}
+.jqTransformSelectWrapper ul a {
+	display:block;
+	padding:2px 3px;
+	text-decoration:none;
+	color:#7f7f7f;
+	background:#fff;
+	font-size:12px;
+}
+.jqTransformSelectWrapper ul a.selected {background:#3a3a3a; color:#fff;}
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {background:#e1e1e1; color:#000;}
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}
+/* -------------
+ *Reg-Button
+ * ------------- */
+.form-button {
+	display:inline-block; 
+	font-size:18px; 
+	line-height:39px; 
+	color:#fcfcfc; 
+	font-weight:700;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:0 13px 1px 13px; 
+	border-top:1px solid #595959; 
+	border-left:1px solid #595959; 
+	background:url(../images/button-tail.jpg) 0 0 repeat-x;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.form-button:hover {background:#d9d9d9; color:#323232; border-top:1px solid #dbdbdb; border-left:1px solid #dbdbdb;}

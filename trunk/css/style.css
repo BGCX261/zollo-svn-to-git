@@ -1,0 +1,371 @@
+@import"../css/superfish.css";@import"../css/prettyPhoto.css";@import"../css/jqtransform.css";
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+/* Global properties ======================================================== */
+html {width:100%;}
+
+body { 	 
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7f7f7f;
+	font-size:12px;
+	line-height:18px;
+	min-width:960px;
+	background:url(../images/bg.jpg) 0 0 repeat;
+}
+
+.main {
+	width:950px; 	
+	padding:0;
+	margin:0 auto;
+	position:relative;
+}
+.z-index1 {position:relative; z-index:1;}
+.z-index2 {position:relative; z-index:2;}
+
+a {color:#2aa3dd; outline:none;}
+a:hover {text-decoration:none;}
+
+.clear {clear:both; width:100%; line-height:0; font-size:0;}
+
+.col-1, .col-2, .col-3, .col-4 {float:left;}
+
+.wrapper {width:100%; overflow:hidden;}
+.extra-wrap {overflow:hidden;}
+
+p {margin-bottom:18px;}
+.p1 {margin-bottom:8px;}
+.p2 {margin-bottom:15px;}
+.p3 {margin-bottom:30px;}
+.p4 {margin-bottom:40px;}
+.p5 {margin-bottom:50px;}
+
+.reg {text-transform:uppercase;}
+
+.fleft {float:left;}
+.fright {float:right;}
+
+.alignright {text-align:right;}
+.aligncenter {text-align:center;}
+
+.title {margin-bottom:18px;}
+
+.it {font-style:italic;}
+
+.letter {letter-spacing:-1px;}
+
+.color-1 {color:#fff;}
+.color-2 {color:#000;}
+.color-3 {color:#7f7f7f;}
+.color-4 {color:#9f9d9d;}
+
+/*********************************boxes**********************************/
+.margin-bot {margin-bottom:35px;}
+
+.spacing {margin-right:35px;}
+.spacing2 {margin-right:45px;}
+.spacing3 {margin-right:60px;}
+
+.spacing-bot {margin-bottom:25px;}
+
+.indent {padding:0 0 0px 30px;}
+.indent2 {padding-left:50px;}
+.indent-bot {margin-bottom:20px;}
+.indent-bot2 {margin-bottom:30px;}
+.indent-bot3 {margin-bottom:45px;}
+
+.img-indent-bot {margin-bottom:25px;}
+.img-indent {float:left; margin:0 20px 0px 0;}	
+.img-indent1 {float:left; margin:0 16px 0px 0;}	
+.img-indent2 {float:left; margin:0 13px 0px 0;}	
+.img-indent-r {float:right; margin:0 0px 0px 40px;}	
+
+.prev-indent-bot {margin-bottom:10px;}
+.prev-indent {float:left; margin:0 17px 0px 0;}	
+.prev-box {float:left; margin-bottom:8px;}	
+
+.border {border:3px solid #000;}
+
+a {cursor:pointer;}
+
+.list-1 li a, .list-2 li a, .list-4 li a, .list-5 li a, .link, .link-1, h1 a, .button, .button-1, .menu-top li a {text-decoration:none;}	
+
+/*********************************header*************************************/
+header {height:190px; width:100%; position:relative; z-index:2; background:url(../images/bg-top.jpg) center 0 no-repeat;}
+.header {height:828px; width:100%; background:url(../images/bg-top1.jpg) center 0 no-repeat;}
+
+/*********************************row-1*************************************/
+.row-1 {width:100%; height:116px; position:relative; z-index:1;}
+
+h1 {position:absolute; top:16px; left:0px; font-weight:400; text-transform:uppercase;}
+h1 a {display:block; color:#e9e9e9; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; letter-spacing:-1px;}
+h1 a strong {display:inline-block; font-size:58px; line-height:70px; font-weight:700; letter-spacing:normal;}
+h1 a em {display:inline-block; font-size:38px; line-height:80px; font-style:normal;}
+h1 span {display:block; font-size:10px; line-height:12px; color:#6e6e6e; text-shadow:#6e6e6e 0px 0px 1px; margin-top:-19px; word-spacing:-1px; font-family:Arial, Helvetica, sans-serif;}
+
+.menu-top {position:absolute; top:46px; right:0px; overflow:hidden;}
+.menu-top li {float:left; margin-left:17px; font-size:15px; line-height:21px; text-transform:uppercase; font-weight:700; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.menu-top li a {color:#fdfdfd;}
+.menu-top li a:hover {color:#2aa3dd;}
+
+/*********************************row-2*************************************/
+.row-2 {width:100%; height:74px; position:relative; z-index:2;}
+
+/*********************************row-3*************************************/
+.row-3 {width:100%; height:638px; position:relative; z-index:1; background:url(../images/slider-shadow.png) center bottom no-repeat;}
+
+/*********************************content*************************************/
+#content {width:100%; padding:0px; background:url(../images/content-tail.jpg) center 0 repeat-y #e2e2e2;}
+.padding-content {padding:15px 0 51px;}
+.padding1-content {padding:61px 0 51px;}
+.padding2-content {padding:54px 0 51px;}
+
+.padding-top {padding-top:8px;}
+.padding-top1 {padding-top:6px;}
+
+.side {position:absolute; bottom:-1px; right:49px;}
+
+.spacer-1 {width:100%; background:url(../images/spacer-1.gif) 287px 0 repeat-y;}
+.spacer-2 {width:100%; background:url(../images/spacer-2.png) 140px 0 no-repeat;}
+.spacer-3 {width:55px; height:32px; position:absolute; top:14px; left:0; background:url(../images/spacer-3.png) 0px 0px no-repeat;}
+
+h3 {font-size:28px; line-height:34px; color:#000; font-weight:700; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h3 em {display:inline-block; font-size:20px; line-height:42px; font-weight:400; font-style:normal;}
+h3 strong {display:inline-block; margin-top:-10px;}
+h4 {font-size:24px; line-height:29px; color:#000; font-weight:700; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h4 strong {display:inline-block; margin-top:-5px;}
+h5 {font-size:18px; line-height:22px; color:#fcfcfc; font-weight:700; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h6 {font-size:12px; line-height:18px; color:#2aa3dd; font-weight:700;}
+
+.border-bot {width:100%; padding-bottom:20px; background:url(../images/pic-1.gif) 0 bottom repeat-x;}
+
+.box {border:1px solid #fff; background:#fafafa; position:relative;}
+.padding-box {padding:20px 29px 29px;}
+.padding1-box {padding:20px 24px 33px 28px;}
+.padding2-box {padding:20px 29px 15px;}
+.padding3-box {padding:22px 26px 26px 29px;}
+.padding4-box {padding:20px 15px 25px 25px;}
+.padding5-box {padding:20px 240px 30px 28px;}
+
+.box-1 {border:1px solid #595959; background:url(../images/box1-tail.jpg) 0 0 repeat-x #242424; position:relative;}
+.padding-box1 {padding:20px 29px 19px 29px;}
+.padding1-box1 {padding:26px 30px 20px 22px;}
+.padding2-box1 {padding:28px 32px 15px 29px;}
+.padding3-box1 {padding:26px 40px 20px 22px;}
+.padding4-box1 {padding:28px 20px 15px 29px;}
+.box-1 h3 {color:#fff;}
+.box-1 h4 {font-size:24px; line-height:29px; color:#fff; font-weight:700; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.box-2 {text-align:center; background:#e9e9e9; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.padding-box2 {padding:18px 0;}
+.padding1-box2 {padding:8px 0 4px;}
+
+.box-quote {
+	width:100%;
+	color:#fff;
+	background:url(../images/box-quote.png) 0 0 repeat;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-webkit-background-clip: padding-box;
+	position:relative;
+}
+.box-quote .padding {padding:20px 26px 20px 20px;}
+.box-quote span {display:block; position:absolute; bottom:-13px; left:24px; width:13px; height:13px; background:url(../images/marker-box-qute.png) 0 0 no-repeat;}
+
+.author {font-size:22px; line-height:27px; color:#e9e9e9; padding-top:25px;}
+.author a {display:inline-block; font-size:12px; line-height:28px; color:#2aa3dd; padding-right:8px; margin-left:30px; background:url(../images/marker-2.gif) right 13px no-repeat;}
+.author a:hover {color:#fff;}
+
+.button {
+	display:inline-block; 
+	font-size:18px; 
+	line-height:39px; 
+	color:#fcfcfc; 
+	font-weight:700;
+	text-transform:uppercase; 
+	padding:0 13px 1px 14px; 
+	border-top:1px solid #595959; 
+	border-left:1px solid #595959; 
+	background:url(../images/button-tail.jpg) 0 0 repeat-x;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.button:hover {background:#d9d9d9; color:#323232; border-top:1px solid #dbdbdb; border-left:1px solid #dbdbdb;}
+
+.button-1 {
+	display:inline-block; 
+	font-size:28px; 
+	line-height:80px; 
+	color:#383838; 
+	font-weight:700;
+	text-transform:uppercase;
+	padding:0 29px;
+	background:url(../images/button1-tail.jpg) 0 0 repeat-x; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	position:relative;
+}
+.button-1:hover {background:url(../images/button1-tail.jpg) 0 bottom repeat-x; color:#f8f8f8;}
+
+.list-1 li {font-size:12px; line-height:26px; padding-left:20px; background:url(../images/marker-1.png) 0 10px no-repeat;}
+.list-1 li a {color:#2aa3dd;}
+.list-1 li a:hover {text-decoration:underline;}
+
+.list-1.underline li {font-size:12px; line-height:26px; padding-left:20px; background:url(../images/marker-1.png) 0 10px no-repeat;}
+.list-1.underline li a {color:#2aa3dd; text-decoration:underline;}
+.list-1.underline li a:hover {text-decoration:none;}
+
+.list-2 li {font-size:12px; line-height:31px; padding:0; background:url(../images/border-bot.png) 0 bottom repeat-x;}
+.list-2 li a {color:#616161;}
+.list-2 li a:hover {color:#2aa3dd;}
+.list-2 li.last-item {background:none;}
+
+.list-3 li {font-size:12px; line-height:35px; color:#7f7f7f; padding:0; overflow:hidden; background:url(../images/border-bot1.gif) 0 bottom no-repeat;}
+.list-3 li span {float:left; width:80px; color:#2aa3dd; font-weight:700;}
+.list-3 li.last-item {background:none;}
+
+.list-4 li {font-size:12px; line-height:18px; padding-left:12px; margin-bottom:15px; background:url(../images/marker-3.png) 0 6px no-repeat;}
+.list-4 li a {color:#9f9d9d;}
+.list-4 li a:hover {text-decoration:underline;}
+
+.list-5 li {font-size:14px; line-height:45px; font-weight:700; text-transform:uppercase; margin-bottom:1px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.list-5 li a {display:block; color:#444444; padding-left:24px; background:url(../images/list5-bg.jpg) 0 0 no-repeat;}
+.list-5 li a:hover {color:#fff; background:url(../images/list5-bg.jpg) 0 bottom no-repeat;}
+
+.link:hover {text-decoration:underline;} 
+
+.link-1 {display:inline-block; font-size:12px; line-height:18px; color:#2aa3dd; padding-right:8px; background:url(../images/marker-2.gif) right 8px no-repeat;}
+.link-1:hover {color:#fff;} 
+
+.text-1 {font-size:48px; line-height:72px; color:#fcfcfc; font-weight:700; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;} 
+.text-2 {display:block; font-size:16px; line-height:20px; color:#343434; font-weight:400; text-shadow:#343434 0 0 1px; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.text-3 {display:inline-block; font-size:20px; line-height:24px; color:#454545; font-weight:400;}
+.text-3 strong {display:inline-block; margin-top:-3px; font-weight:400;}
+
+dl dd {overflow:hidden;}
+dd span {float:left; width:69px;}
+
+.map-canvas {width:450px; height:292px;}
+
+table {border-collapse:collapse; border-top:1px solid #cdcdcd; border-left:1px solid #cdcdcd;}
+table .col-1 {width:65px; margin:0; padding-left:11px;}
+table .col-2 {width:60px; margin:0; text-align:center;}
+table .col-3 {width:81px; margin:0; padding-left:24px;}
+table .col-4 {width:83px; margin:0; padding-left:25px;}
+table .col-5 {width:83px; margin:0; padding-left:24px;}
+table .col-6 {width:107px; margin:0; text-align:center;}
+table th {font-size:13px; text-align:left; line-height:43px; color:#343434; text-transform:uppercase; letter-spacing:-1px; border-right:1px solid #cdcdcd; background:#e1e1e1;}
+table td {font-size:13px; line-height:23px; color:#7f7f7f; border-right:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd;}
+
+/****************************aside************************/
+aside {width:100%; padding:45px 0 38px; background:url(../images/aside-bg.jpg) center 0 repeat-y;}
+aside h3 {font-size:18px; line-height:22px; color:#000; font-weight:400; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;} 
+
+/****************************footer************************/
+footer {width:100%; padding:38px 0; background:url(../images/bg.jpg) 0 0 repeat;}
+
+.text-bot {float:left; font-size:12px; line-height:15px; color:#fdfdfd;}
+.text-bot a {color:#2aa3dd; margin-left:15px; text-decoration:none;}
+.text-bot a:hover {text-decoration:underline;}
+
+.footer-link {float:right; text-align:right; font-size:12px; line-height:15px; color:#2aa3dd;}
+
+/****************************layout************************/
+.page1.col-1 {width:255px; margin-right:66px;}
+.page1.col-2 {width:255px; margin-right:0px;}
+.page2.col-1 {width:105px; margin-right:79px;}
+.page2.col-2 {width:335px; margin-right:0px;}
+.page3.col-1 {width:276px; margin-right:52px;}
+.page3.col-2 {width:260px; margin-right:0px;}
+.page5.col-1 {width:308px; margin-right:20px;}
+.page5.col-2 {width:242px; margin-right:0px;}
+.page5.col-2 .padding {padding:0 0 0 49px; position:relative;}
+.page6.col-1 {width:188px; margin-right:23px;}
+.page6.col-2 {width:239px; margin-right:0px;}
+
+/****************************TM-Slider************************/
+.bg-slider {width:919px; height:561px; padding:30px 0 0 29px; margin:0 auto; border:1px solid #fff; background:#fafafa;}
+.slider {width:891px; height:561px; position:relative;}
+.items {display:none;}
+.pagination {position:absolute; bottom:25px; left:0px; z-index:999;}
+.pagination li {float:left; display:block; font-weight:700; text-transform:uppercase; margin:0 25px 0 0; padding:0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:url(../images/spacer-pags.png) right 0 no-repeat; position:relative;}
+.pagination li:first-child+li {margin:0 24px 0 0;}
+.pagination li:first-child+li+li+li {margin:0; background:none;}
+.pagination li .pags1 {display:block; height:60px; width:134px; font-size:18px; line-height:22px; color:#949494; text-decoration:none; padding:30px 0px 0px 75px; background:url(../images/pags1.png) 0 24px no-repeat;}
+.pagination li .pags2 {display:block; height:64px; width:133px; font-size:18px; line-height:22px; color:#949494; text-decoration:none; padding:26px 0px 0px 79px; background:url(../images/pags2.png) 0 26px no-repeat;}
+.pagination li .pags2 strong {display:block; font-size:28px; line-height:34px; margin-bottom:-3px;}
+.pagination li .pags3 {display:block; height:64px; width:135px; font-size:18px; line-height:22px; color:#949494; text-decoration:none; padding:26px 0px 0px 79px; background:url(../images/pags3.png) 0 19px no-repeat;}
+.pagination li .pags3 strong {display:block; font-size:28px; line-height:34px; margin-bottom:-3px;}
+.pagination li .pags4 {display:block; height:59px; width:102px; font-size:18px; line-height:22px; color:#949494; text-decoration:none; padding:31px 0px 0px 80px; background:url(../images/pags4.png) 0 21px no-repeat;}
+.pagination li .pags4 strong {display:block; font-size:20px; line-height:24px; margin-bottom:-2px;}
+.pagination li span {display:none; position:absolute; top:-10px; left:0; width:100%; height:10px; background:url(../images/marker-pags.png) center 0 no-repeat;}
+.pagination li.current span, .pagination li:hover span {display:block;}
+.pagination li.current a, .pagination li:hover a {color:#2a2a2a;}
+.pagination li a {color:#fff; width:10px; height:20px; display:block;}
+
+.banner.banner1 {width:405px; height:345px; position:absolute; left:79px; top:42px; font-size:12px; line-height:18px; color:#111; font-family:Arial, Helvetica, sans-serif;}
+.banner.banner1 .text1-banner {display:block; text-transform:uppercase; margin-bottom:-45px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.banner.banner1 .text1-banner strong {display:inline-block; font-size:98px; line-height:118px; font-weight:400; /*text-shadow:#777 0 0 2px;*/}
+.banner.banner1 .text1-banner span {display:inline-block; font-size:68px; line-height:140px; margin-left:-10px;/* text-shadow:#777 0 0 2px;*/}
+.banner.banner1 .text2-banner {display:block; font-size:48px; line-height:58px; /*color:#efefef;text-shadow:#777 0 0 2px;*/ text-transform:uppercase; margin:0 0 16px 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.banner.banner2 {width:380px; height:345px; position:absolute; left:79px; top:42px; font-size:12px; line-height:18px; color:#f8f8f8; font-family:Arial, Helvetica, sans-serif;}
+.banner.banner2 .text1-banner {display:block; color:#f8f8f8; text-transform:uppercase; margin-bottom:-45px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.banner.banner2 .text1-banner strong {display:inline-block; font-size:98px; line-height:118px; font-weight:400; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner2 .text1-banner span {display:inline-block; font-size:68px; line-height:140px; margin-left:-4px; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner2 .text2-banner {display:block; font-size:48px; line-height:58px; color:#f8f8f8; text-transform:uppercase; text-align:right; margin:0 0 16px 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.banner.banner3 {width:380px; height:345px; position:absolute; left:79px; top:42px; font-size:12px; line-height:18px; color:#f8f8f8; font-family:Arial, Helvetica, sans-serif;}
+.banner.banner3 .text1-banner {display:block; color:#f8f8f8; text-transform:uppercase; margin-bottom:-45px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.banner.banner3 .text1-banner strong {display:inline-block; font-size:98px; line-height:118px; font-weight:400; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner3 .text1-banner span {display:inline-block; font-size:68px; line-height:140px; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner3 .text2-banner {display:block; font-size:48px; line-height:58px; color:#f8f8f8; text-transform:uppercase; margin:0 0 16px 93px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.banner.banner4 {width:380px; height:345px; position:absolute; left:79px; top:42px; font-size:12px; line-height:18px; color:#f8f8f8; font-family:Arial, Helvetica, sans-serif;}
+.banner.banner4 .text1-banner {display:block; color:#f8f8f8; text-transform:uppercase; margin-bottom:-45px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.banner.banner4 .text1-banner strong {display:inline-block; font-size:98px; line-height:118px; font-weight:400; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner4 .text1-banner span {display:inline-block; font-size:68px; line-height:140px; text-shadow:#f8f8f8 0 0 3px;}
+.banner.banner4 .text2-banner {display:block; font-size:48px; line-height:58px; color:#f8f8f8; text-transform:uppercase; margin:0 0 16px 93px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.button1-shadow {display:block; width:336px; height:102px; padding-left:33px; margin-left:-33px; background:url(../images/button1-shadow.png) 0 bottom no-repeat;}
+
+/****************************Contact Form************************/
+#contact-form {line-height:1em; margin:0; padding:0; width:370px;}
+#contact-form .success {padding-bottom:5px;}	
+#contact-form textarea, #contact-form input {
+	margin:0;
+	font-size:1em;
+	color:#7d7d7d;
+	padding:12px 15px;
+	border:1px solid #dfdfdf;
+	position:relative;
+	outline:none;
+	background:#f9f9f9;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#contact-form input {width:218px;}
+#contact-form textarea {overflow:auto; width:338px; height:189px;}	
+#contact-form label {min-height:50px; display:block;}	
+#contact-form label.message {min-height:223px;}
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
+#contact-form .button {margin-left:8px;}	
+#contact-form .error, #contact-form .empty {color:red; padding:5px 0; font-size:11px;}
+#contact-form .buttons {overflow:hidden; margin:0 0 0 20px; padding:0;}
+#contact-form .buttons a {
+	float:right;
+	margin-left:7px;
+	font-size:18px; 
+	line-height:39px; 
+	color:#fcfcfc; 
+	font-weight:700;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:0 13px 1px 14px; 
+	border-top:1px solid #595959; 
+	border-left:1px solid #595959; 
+	background:url(../images/button-tail.jpg) 0 0 repeat-x;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#contact-form .buttons a:hover {background:#d9d9d9; color:#323232; border-top:1px solid #dbdbdb; border-left:1px solid #dbdbdb;}
+
+#contact-form .success {color:#7d7d7d; width:246px; margin-bottom:20px; padding:10px; border:1px solid #dfdfdf; background:#f9f9f9;}
